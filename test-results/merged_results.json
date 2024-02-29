@@ -17,6 +17,153 @@
     "measurementTime": "1 s",
     "measurementBatchSize": 1,
     "params": {
+      "serialization": "kryo",
+      "time": "1709219631194"
+    },
+    "primaryMetric": {
+      "score": 0.25594277769250445,
+      "scoreError": "NaN",
+      "scoreConfidence": [
+        "NaN",
+        "NaN"
+      ],
+      "scorePercentiles": {
+        "0.0": 0.25594277769250445,
+        "50.0": 0.25594277769250445,
+        "90.0": 0.25594277769250445,
+        "95.0": 0.25594277769250445,
+        "99.0": 0.25594277769250445,
+        "99.9": 0.25594277769250445,
+        "99.99": 0.25594277769250445,
+        "99.999": 0.25594277769250445,
+        "99.9999": 0.25594277769250445,
+        "100.0": 0.25594277769250445
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.25594277769250445
+        ]
+      ]
+    },
+    "secondaryMetrics": {}
+  },
+  {
+    "jmhVersion": "1.35",
+    "benchmark": "com.zcy.consumer.Client.listUser",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 0,
+    "jvm": "/opt/hostedtoolcache/Java_Zulu_jdk/8.0.402-6/x64/jre/bin/java",
+    "jvmArgs": [],
+    "jdkVersion": "1.8.0_402",
+    "vmName": "OpenJDK 64-Bit Server VM",
+    "vmVersion": "25.402-b06",
+    "warmupIterations": 1,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 1,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "serialization": "hession2",
+      "time": "1709219627079"
+    },
+    "primaryMetric": {
+      "score": 0.9777135738025415,
+      "scoreError": "NaN",
+      "scoreConfidence": [
+        "NaN",
+        "NaN"
+      ],
+      "scorePercentiles": {
+        "0.0": 0.9777135738025415,
+        "50.0": 0.9777135738025415,
+        "90.0": 0.9777135738025415,
+        "95.0": 0.9777135738025415,
+        "99.0": 0.9777135738025415,
+        "99.9": 0.9777135738025415,
+        "99.99": 0.9777135738025415,
+        "99.999": 0.9777135738025415,
+        "99.9999": 0.9777135738025415,
+        "100.0": 0.9777135738025415
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.9777135738025415
+        ]
+      ]
+    },
+    "secondaryMetrics": {}
+  },
+  {
+    "jmhVersion": "1.35",
+    "benchmark": "com.zcy.consumer.Client.listUser",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 0,
+    "jvm": "/opt/hostedtoolcache/Java_Zulu_jdk/8.0.402-6/x64/jre/bin/java",
+    "jvmArgs": [],
+    "jdkVersion": "1.8.0_402",
+    "vmName": "OpenJDK 64-Bit Server VM",
+    "vmVersion": "25.402-b06",
+    "warmupIterations": 1,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 1,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "serialization": "fastjson2",
+      "time": "1709219629185"
+    },
+    "primaryMetric": {
+      "score": 0.3207119361974992,
+      "scoreError": "NaN",
+      "scoreConfidence": [
+        "NaN",
+        "NaN"
+      ],
+      "scorePercentiles": {
+        "0.0": 0.3207119361974992,
+        "50.0": 0.3207119361974992,
+        "90.0": 0.3207119361974992,
+        "95.0": 0.3207119361974992,
+        "99.0": 0.3207119361974992,
+        "99.9": 0.3207119361974992,
+        "99.99": 0.3207119361974992,
+        "99.999": 0.3207119361974992,
+        "99.9999": 0.3207119361974992,
+        "100.0": 0.3207119361974992
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          0.3207119361974992
+        ]
+      ]
+    },
+    "secondaryMetrics": {}
+  },
+  {
+    "jmhVersion": "1.35",
+    "benchmark": "com.zcy.consumer.Client.listUser",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 0,
+    "jvm": "/opt/hostedtoolcache/Java_Zulu_jdk/8.0.402-6/x64/jre/bin/java",
+    "jvmArgs": [],
+    "jdkVersion": "1.8.0_402",
+    "vmName": "OpenJDK 64-Bit Server VM",
+    "vmVersion": "25.402-b06",
+    "warmupIterations": 1,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 1,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
       "serialization": "fastjson2",
       "time": "1709218978450"
     },
@@ -92,153 +239,6 @@
       "rawData": [
         [
           0.26151219858897307
-        ]
-      ]
-    },
-    "secondaryMetrics": {}
-  },
-  {
-    "jmhVersion": "1.35",
-    "benchmark": "com.zcy.consumer.Client.listUser",
-    "mode": "avgt",
-    "threads": 1,
-    "forks": 0,
-    "jvm": "/opt/hostedtoolcache/Java_Zulu_jdk/8.0.402-6/x64/jre/bin/java",
-    "jvmArgs": [],
-    "jdkVersion": "1.8.0_402",
-    "vmName": "OpenJDK 64-Bit Server VM",
-    "vmVersion": "25.402-b06",
-    "warmupIterations": 1,
-    "warmupTime": "1 s",
-    "warmupBatchSize": 1,
-    "measurementIterations": 1,
-    "measurementTime": "1 s",
-    "measurementBatchSize": 1,
-    "params": {
-      "serialization": "hession2",
-      "time": "1709218976350"
-    },
-    "primaryMetric": {
-      "score": 1.0047286395582329,
-      "scoreError": "NaN",
-      "scoreConfidence": [
-        "NaN",
-        "NaN"
-      ],
-      "scorePercentiles": {
-        "0.0": 1.0047286395582329,
-        "50.0": 1.0047286395582329,
-        "90.0": 1.0047286395582329,
-        "95.0": 1.0047286395582329,
-        "99.0": 1.0047286395582329,
-        "99.9": 1.0047286395582329,
-        "99.99": 1.0047286395582329,
-        "99.999": 1.0047286395582329,
-        "99.9999": 1.0047286395582329,
-        "100.0": 1.0047286395582329
-      },
-      "scoreUnit": "ms/op",
-      "rawData": [
-        [
-          1.0047286395582329
-        ]
-      ]
-    },
-    "secondaryMetrics": {}
-  },
-  {
-    "jmhVersion": "1.35",
-    "benchmark": "com.zcy.consumer.Client.listUser",
-    "mode": "avgt",
-    "threads": 1,
-    "forks": 0,
-    "jvm": "/opt/hostedtoolcache/Java_Zulu_jdk/8.0.402-6/x64/jre/bin/java",
-    "jvmArgs": [],
-    "jdkVersion": "1.8.0_402",
-    "vmName": "OpenJDK 64-Bit Server VM",
-    "vmVersion": "25.402-b06",
-    "warmupIterations": 1,
-    "warmupTime": "1 s",
-    "warmupBatchSize": 1,
-    "measurementIterations": 1,
-    "measurementTime": "1 s",
-    "measurementBatchSize": 1,
-    "params": {
-      "serialization": "hession2",
-      "time": "1709215437859"
-    },
-    "primaryMetric": {
-      "score": 0.9895818397626113,
-      "scoreError": "NaN",
-      "scoreConfidence": [
-        "NaN",
-        "NaN"
-      ],
-      "scorePercentiles": {
-        "0.0": 0.9895818397626113,
-        "50.0": 0.9895818397626113,
-        "90.0": 0.9895818397626113,
-        "95.0": 0.9895818397626113,
-        "99.0": 0.9895818397626113,
-        "99.9": 0.9895818397626113,
-        "99.99": 0.9895818397626113,
-        "99.999": 0.9895818397626113,
-        "99.9999": 0.9895818397626113,
-        "100.0": 0.9895818397626113
-      },
-      "scoreUnit": "ms/op",
-      "rawData": [
-        [
-          0.9895818397626113
-        ]
-      ]
-    },
-    "secondaryMetrics": {}
-  },
-  {
-    "jmhVersion": "1.35",
-    "benchmark": "com.zcy.consumer.Client.listUser",
-    "mode": "avgt",
-    "threads": 1,
-    "forks": 0,
-    "jvm": "/opt/hostedtoolcache/Java_Zulu_jdk/8.0.402-6/x64/jre/bin/java",
-    "jvmArgs": [],
-    "jdkVersion": "1.8.0_402",
-    "vmName": "OpenJDK 64-Bit Server VM",
-    "vmVersion": "25.402-b06",
-    "warmupIterations": 1,
-    "warmupTime": "1 s",
-    "warmupBatchSize": 1,
-    "measurementIterations": 1,
-    "measurementTime": "1 s",
-    "measurementBatchSize": 1,
-    "params": {
-      "serialization": "kryo",
-      "time": "1709215441976"
-    },
-    "primaryMetric": {
-      "score": 0.24945200523690772,
-      "scoreError": "NaN",
-      "scoreConfidence": [
-        "NaN",
-        "NaN"
-      ],
-      "scorePercentiles": {
-        "0.0": 0.24945200523690772,
-        "50.0": 0.24945200523690772,
-        "90.0": 0.24945200523690772,
-        "95.0": 0.24945200523690772,
-        "99.0": 0.24945200523690772,
-        "99.9": 0.24945200523690772,
-        "99.99": 0.24945200523690772,
-        "99.999": 0.24945200523690772,
-        "99.9999": 0.24945200523690772,
-        "100.0": 0.24945200523690772
-      },
-      "scoreUnit": "ms/op",
-      "rawData": [
-        [
-          0.24945200523690772
         ]
       ]
     },
