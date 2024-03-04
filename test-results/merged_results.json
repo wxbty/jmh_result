@@ -7,7 +7,7 @@
     "forks": 1,
     "jvm": "/usr/local/openjdk-8/jre/bin/java",
     "jvmArgs": [
-      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1709527708319-jacoco.exec",
+      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1709531622299-jacoco.exec",
       "-Dzookeeper.address=zookeeper"
     ],
     "jdkVersion": "1.8.0_342",
@@ -21,83 +21,31 @@
     "measurementBatchSize": 1,
     "params": {
       "serialization": "hession2",
-      "time": "1709527729381"
+      "time": "1709531645205"
     },
     "primaryMetric": {
-      "score": 24.506085731707316,
+      "score": 26.40123907894737,
       "scoreError": "NaN",
       "scoreConfidence": [
         "NaN",
         "NaN"
       ],
       "scorePercentiles": {
-        "0.0": 24.506085731707316,
-        "50.0": 24.506085731707316,
-        "90.0": 24.506085731707316,
-        "95.0": 24.506085731707316,
-        "99.0": 24.506085731707316,
-        "99.9": 24.506085731707316,
-        "99.99": 24.506085731707316,
-        "99.999": 24.506085731707316,
-        "99.9999": 24.506085731707316,
-        "100.0": 24.506085731707316
+        "0.0": 26.40123907894737,
+        "50.0": 26.40123907894737,
+        "90.0": 26.40123907894737,
+        "95.0": 26.40123907894737,
+        "99.0": 26.40123907894737,
+        "99.9": 26.40123907894737,
+        "99.99": 26.40123907894737,
+        "99.999": 26.40123907894737,
+        "99.9999": 26.40123907894737,
+        "100.0": 26.40123907894737
       },
       "scoreUnit": "ms/op",
       "rawData": [
         [
-          24.506085731707316
-        ]
-      ]
-    },
-    "secondaryMetrics": {}
-  },
-  {
-    "jmhVersion": "1.35",
-    "benchmark": "org.apache.dubbo.benchmark.demo.test.ConsumerIT.MyBenchmark.getUser",
-    "mode": "avgt",
-    "threads": 1,
-    "forks": 1,
-    "jvm": "/usr/local/openjdk-8/jre/bin/java",
-    "jvmArgs": [
-      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1709500709773-jacoco.exec",
-      "-Dzookeeper.address=zookeeper"
-    ],
-    "jdkVersion": "1.8.0_342",
-    "vmName": "OpenJDK 64-Bit Server VM",
-    "vmVersion": "25.342-b07",
-    "warmupIterations": 1,
-    "warmupTime": "1 s",
-    "warmupBatchSize": 1,
-    "measurementIterations": 1,
-    "measurementTime": "1 s",
-    "measurementBatchSize": 1,
-    "params": {
-      "serialization": "hession2",
-      "time": "1709500732605"
-    },
-    "primaryMetric": {
-      "score": 27.23412808108108,
-      "scoreError": "NaN",
-      "scoreConfidence": [
-        "NaN",
-        "NaN"
-      ],
-      "scorePercentiles": {
-        "0.0": 27.23412808108108,
-        "50.0": 27.23412808108108,
-        "90.0": 27.23412808108108,
-        "95.0": 27.23412808108108,
-        "99.0": 27.23412808108108,
-        "99.9": 27.23412808108108,
-        "99.99": 27.23412808108108,
-        "99.999": 27.23412808108108,
-        "99.9999": 27.23412808108108,
-        "100.0": 27.23412808108108
-      },
-      "scoreUnit": "ms/op",
-      "rawData": [
-        [
-          27.23412808108108
+          26.40123907894737
         ]
       ]
     },
@@ -410,6 +358,58 @@
       "rawData": [
         [
           26.04908623076923
+        ]
+      ]
+    },
+    "secondaryMetrics": {}
+  },
+  {
+    "jmhVersion": "1.35",
+    "benchmark": "org.apache.dubbo.benchmark.demo.test.ConsumerIT.MyBenchmark.getUser",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "/usr/local/openjdk-8/jre/bin/java",
+    "jvmArgs": [
+      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1709527708319-jacoco.exec",
+      "-Dzookeeper.address=zookeeper"
+    ],
+    "jdkVersion": "1.8.0_342",
+    "vmName": "OpenJDK 64-Bit Server VM",
+    "vmVersion": "25.342-b07",
+    "warmupIterations": 1,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 1,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "serialization": "hession2",
+      "time": "1709527729381"
+    },
+    "primaryMetric": {
+      "score": 24.506085731707316,
+      "scoreError": "NaN",
+      "scoreConfidence": [
+        "NaN",
+        "NaN"
+      ],
+      "scorePercentiles": {
+        "0.0": 24.506085731707316,
+        "50.0": 24.506085731707316,
+        "90.0": 24.506085731707316,
+        "95.0": 24.506085731707316,
+        "99.0": 24.506085731707316,
+        "99.9": 24.506085731707316,
+        "99.99": 24.506085731707316,
+        "99.999": 24.506085731707316,
+        "99.9999": 24.506085731707316,
+        "100.0": 24.506085731707316
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          24.506085731707316
         ]
       ]
     },
@@ -1582,6 +1582,58 @@
       "rawData": [
         [
           26.658655
+        ]
+      ]
+    },
+    "secondaryMetrics": {}
+  },
+  {
+    "jmhVersion": "1.35",
+    "benchmark": "org.apache.dubbo.benchmark.demo.test.ConsumerIT.MyBenchmark.getUser",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "/usr/local/openjdk-8/jre/bin/java",
+    "jvmArgs": [
+      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1709500709773-jacoco.exec",
+      "-Dzookeeper.address=zookeeper"
+    ],
+    "jdkVersion": "1.8.0_342",
+    "vmName": "OpenJDK 64-Bit Server VM",
+    "vmVersion": "25.342-b07",
+    "warmupIterations": 1,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 1,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "serialization": "hession2",
+      "time": "1709500732605"
+    },
+    "primaryMetric": {
+      "score": 27.23412808108108,
+      "scoreError": "NaN",
+      "scoreConfidence": [
+        "NaN",
+        "NaN"
+      ],
+      "scorePercentiles": {
+        "0.0": 27.23412808108108,
+        "50.0": 27.23412808108108,
+        "90.0": 27.23412808108108,
+        "95.0": 27.23412808108108,
+        "99.0": 27.23412808108108,
+        "99.9": 27.23412808108108,
+        "99.99": 27.23412808108108,
+        "99.999": 27.23412808108108,
+        "99.9999": 27.23412808108108,
+        "100.0": 27.23412808108108
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          27.23412808108108
         ]
       ]
     },
