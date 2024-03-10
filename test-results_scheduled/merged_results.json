@@ -7,7 +7,7 @@
     "forks": 1,
     "jvm": "/usr/local/openjdk-8/jre/bin/java",
     "jvmArgs": [
-      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1710109482149-jacoco.exec",
+      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1710113053442-jacoco.exec",
       "-Dzookeeper.address=zookeeper"
     ],
     "jdkVersion": "1.8.0_342",
@@ -21,31 +21,83 @@
     "measurementBatchSize": 1,
     "params": {
       "serialization": "hession2",
-      "time": "1710109504695"
+      "time": "1710113074552"
     },
     "primaryMetric": {
-      "score": 64.9213286875,
+      "score": 61.26931135294117,
       "scoreError": "NaN",
       "scoreConfidence": [
         "NaN",
         "NaN"
       ],
       "scorePercentiles": {
-        "0.0": 64.9213286875,
-        "50.0": 64.9213286875,
-        "90.0": 64.9213286875,
-        "95.0": 64.9213286875,
-        "99.0": 64.9213286875,
-        "99.9": 64.9213286875,
-        "99.99": 64.9213286875,
-        "99.999": 64.9213286875,
-        "99.9999": 64.9213286875,
-        "100.0": 64.9213286875
+        "0.0": 61.26931135294117,
+        "50.0": 61.26931135294117,
+        "90.0": 61.26931135294117,
+        "95.0": 61.26931135294117,
+        "99.0": 61.26931135294117,
+        "99.9": 61.26931135294117,
+        "99.99": 61.26931135294117,
+        "99.999": 61.26931135294117,
+        "99.9999": 61.26931135294117,
+        "100.0": 61.26931135294117
       },
       "scoreUnit": "ms/op",
       "rawData": [
         [
-          64.9213286875
+          61.26931135294117
+        ]
+      ]
+    },
+    "secondaryMetrics": {}
+  },
+  {
+    "jmhVersion": "1.35",
+    "benchmark": "org.apache.dubbo.benchmark.demo.test.ConsumerIT.MyBenchmark.getUser",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "/usr/local/openjdk-8/jre/bin/java",
+    "jvmArgs": [
+      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1709940330750-jacoco.exec",
+      "-Dzookeeper.address=zookeeper"
+    ],
+    "jdkVersion": "1.8.0_342",
+    "vmName": "OpenJDK 64-Bit Server VM",
+    "vmVersion": "25.342-b07",
+    "warmupIterations": 1,
+    "warmupTime": "1 s",
+    "warmupBatchSize": 1,
+    "measurementIterations": 1,
+    "measurementTime": "1 s",
+    "measurementBatchSize": 1,
+    "params": {
+      "serialization": "hession2",
+      "time": "1709940352039"
+    },
+    "primaryMetric": {
+      "score": 61.86990888235294,
+      "scoreError": "NaN",
+      "scoreConfidence": [
+        "NaN",
+        "NaN"
+      ],
+      "scorePercentiles": {
+        "0.0": 61.86990888235294,
+        "50.0": 61.86990888235294,
+        "90.0": 61.86990888235294,
+        "95.0": 61.86990888235294,
+        "99.0": 61.86990888235294,
+        "99.9": 61.86990888235294,
+        "99.99": 61.86990888235294,
+        "99.999": 61.86990888235294,
+        "99.9999": 61.86990888235294,
+        "100.0": 61.86990888235294
+      },
+      "scoreUnit": "ms/op",
+      "rawData": [
+        [
+          61.86990888235294
         ]
       ]
     },
@@ -2451,7 +2503,7 @@
     "forks": 1,
     "jvm": "/usr/local/openjdk-8/jre/bin/java",
     "jvmArgs": [
-      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1709936709306-jacoco.exec",
+      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1710109482149-jacoco.exec",
       "-Dzookeeper.address=zookeeper"
     ],
     "jdkVersion": "1.8.0_342",
@@ -2465,83 +2517,31 @@
     "measurementBatchSize": 1,
     "params": {
       "serialization": "hession2",
-      "time": "1709936731019"
+      "time": "1710109504695"
     },
     "primaryMetric": {
-      "score": 64.10840075,
+      "score": 64.9213286875,
       "scoreError": "NaN",
       "scoreConfidence": [
         "NaN",
         "NaN"
       ],
       "scorePercentiles": {
-        "0.0": 64.10840075,
-        "50.0": 64.10840075,
-        "90.0": 64.10840075,
-        "95.0": 64.10840075,
-        "99.0": 64.10840075,
-        "99.9": 64.10840075,
-        "99.99": 64.10840075,
-        "99.999": 64.10840075,
-        "99.9999": 64.10840075,
-        "100.0": 64.10840075
+        "0.0": 64.9213286875,
+        "50.0": 64.9213286875,
+        "90.0": 64.9213286875,
+        "95.0": 64.9213286875,
+        "99.0": 64.9213286875,
+        "99.9": 64.9213286875,
+        "99.99": 64.9213286875,
+        "99.999": 64.9213286875,
+        "99.9999": 64.9213286875,
+        "100.0": 64.9213286875
       },
       "scoreUnit": "ms/op",
       "rawData": [
         [
-          64.10840075
-        ]
-      ]
-    },
-    "secondaryMetrics": {}
-  },
-  {
-    "jmhVersion": "1.35",
-    "benchmark": "org.apache.dubbo.benchmark.demo.test.ConsumerIT.MyBenchmark.getUser",
-    "mode": "avgt",
-    "threads": 1,
-    "forks": 1,
-    "jvm": "/usr/local/openjdk-8/jre/bin/java",
-    "jvmArgs": [
-      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1709940330750-jacoco.exec",
-      "-Dzookeeper.address=zookeeper"
-    ],
-    "jdkVersion": "1.8.0_342",
-    "vmName": "OpenJDK 64-Bit Server VM",
-    "vmVersion": "25.342-b07",
-    "warmupIterations": 1,
-    "warmupTime": "1 s",
-    "warmupBatchSize": 1,
-    "measurementIterations": 1,
-    "measurementTime": "1 s",
-    "measurementBatchSize": 1,
-    "params": {
-      "serialization": "hession2",
-      "time": "1709940352039"
-    },
-    "primaryMetric": {
-      "score": 61.86990888235294,
-      "scoreError": "NaN",
-      "scoreConfidence": [
-        "NaN",
-        "NaN"
-      ],
-      "scorePercentiles": {
-        "0.0": 61.86990888235294,
-        "50.0": 61.86990888235294,
-        "90.0": 61.86990888235294,
-        "95.0": 61.86990888235294,
-        "99.0": 61.86990888235294,
-        "99.9": 61.86990888235294,
-        "99.99": 61.86990888235294,
-        "99.999": 61.86990888235294,
-        "99.9999": 61.86990888235294,
-        "100.0": 61.86990888235294
-      },
-      "scoreUnit": "ms/op",
-      "rawData": [
-        [
-          61.86990888235294
+          64.9213286875
         ]
       ]
     },
