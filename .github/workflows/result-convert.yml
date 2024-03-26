@@ -1,0 +1,37 @@
+name: Manually Triggered benchmark for Dubbo Samples
+
+on: [push]
+
+permissions:
+  contents: read
+
+env:
+  FORK_COUNT: 2
+  FAIL_FAST: 0
+
+jobs:
+  build-source:
+    name: "Build Result Convert"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          path: jmh_result
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: 8
+      - name: "Build Dubbo with Maven"
+        run: |
+          cd ./jmh_result
+          mvn clean package
+  convert-trace:
+    name: "Convert Trace Grpc Data"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Calculate Dubbo Version"
+        id: dubbo-version
+        run: |
+          REVISION=`awk '/<revision>[^<]+<\/revision>/{gsub(/<revision>|<\/revision>/,"",$1);print $1;exit;}' ./dubbo/pom.xml`
+          echo "version=$REVISION" >> $GITHUB_OUTPUT
+          echo "dubbo version: $REVISION"
