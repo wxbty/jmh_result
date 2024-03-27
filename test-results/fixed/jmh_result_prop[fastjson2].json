@@ -7,7 +7,7 @@
         "forks" : 1,
         "jvm" : "/usr/local/openjdk-8/jre/bin/java",
         "jvmArgs" : [
-            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711527735648-jacoco.exec",
+            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711527733610-jacoco.exec",
             "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
             "-Dzookeeper.address=zookeeper",
             "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -29,31 +29,31 @@
         "measurementBatchSize" : 1,
         "params" : {
             "dubbo.protocol.serialization" : "fastjson2",
-            "time" : "1711527810128"
+            "time" : "1711527825413"
         },
         "primaryMetric" : {
-            "score" : 0.03025094429810778,
+            "score" : 0.02683622800053743,
             "scoreError" : "NaN",
             "scoreConfidence" : [
                 "NaN",
                 "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 0.03025094429810778,
-                "50.0" : 0.03025094429810778,
-                "90.0" : 0.03025094429810778,
-                "95.0" : 0.03025094429810778,
-                "99.0" : 0.03025094429810778,
-                "99.9" : 0.03025094429810778,
-                "99.99" : 0.03025094429810778,
-                "99.999" : 0.03025094429810778,
-                "99.9999" : 0.03025094429810778,
-                "100.0" : 0.03025094429810778
+                "0.0" : 0.02683622800053743,
+                "50.0" : 0.02683622800053743,
+                "90.0" : 0.02683622800053743,
+                "95.0" : 0.02683622800053743,
+                "99.0" : 0.02683622800053743,
+                "99.9" : 0.02683622800053743,
+                "99.99" : 0.02683622800053743,
+                "99.999" : 0.02683622800053743,
+                "99.9999" : 0.02683622800053743,
+                "100.0" : 0.02683622800053743
             },
             "scoreUnit" : "ops/ms",
             "rawData" : [
                 [
-                    0.03025094429810778
+                    0.02683622800053743
                 ]
             ]
         },
@@ -68,7 +68,7 @@
         "forks" : 1,
         "jvm" : "/usr/local/openjdk-8/jre/bin/java",
         "jvmArgs" : [
-            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711527735648-jacoco.exec",
+            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711527733610-jacoco.exec",
             "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
             "-Dzookeeper.address=zookeeper",
             "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -90,31 +90,31 @@
         "measurementBatchSize" : 1,
         "params" : {
             "dubbo.protocol.serialization" : "fastjson2",
-            "time" : "1711527810128"
+            "time" : "1711527825413"
         },
         "primaryMetric" : {
-            "score" : 28.769420457142857,
+            "score" : 31.95988203125,
             "scoreError" : "NaN",
             "scoreConfidence" : [
                 "NaN",
                 "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 28.769420457142857,
-                "50.0" : 28.769420457142857,
-                "90.0" : 28.769420457142857,
-                "95.0" : 28.769420457142857,
-                "99.0" : 28.769420457142857,
-                "99.9" : 28.769420457142857,
-                "99.99" : 28.769420457142857,
-                "99.999" : 28.769420457142857,
-                "99.9999" : 28.769420457142857,
-                "100.0" : 28.769420457142857
+                "0.0" : 31.95988203125,
+                "50.0" : 31.95988203125,
+                "90.0" : 31.95988203125,
+                "95.0" : 31.95988203125,
+                "99.0" : 31.95988203125,
+                "99.9" : 31.95988203125,
+                "99.99" : 31.95988203125,
+                "99.999" : 31.95988203125,
+                "99.9999" : 31.95988203125,
+                "100.0" : 31.95988203125
             },
             "scoreUnit" : "ms/op",
             "rawData" : [
                 [
-                    28.769420457142857
+                    31.95988203125
                 ]
             ]
         },
