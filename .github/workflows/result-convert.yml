@@ -29,9 +29,9 @@ jobs:
     name: "Convert Trace Grpc Data"
     runs-on: ubuntu-latest
     steps:
-      - name: "Calculate Dubbo Version"
-        id: dubbo-version
+      - name: "Run Convert"
         run: |
-          REVISION=`awk '/<revision>[^<]+<\/revision>/{gsub(/<revision>|<\/revision>/,"",$1);print $1;exit;}' ./dubbo/pom.xml`
-          echo "version=$REVISION" >> $GITHUB_OUTPUT
-          echo "dubbo version: $REVISION"
+          rm -rf jmh_result/test-results/trace/jmh_trace_result.json
+          java -jar jmh_result/target/jmh_result.jar
+          
+          
