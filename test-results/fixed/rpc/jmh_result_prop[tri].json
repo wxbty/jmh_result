@@ -7,7 +7,7 @@
         "forks" : 1,
         "jvm" : "/usr/local/openjdk-8/jre/bin/java",
         "jvmArgs" : [
-            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711609638275-jacoco.exec",
+            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711613511870-jacoco.exec",
             "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
             "-Dzookeeper.address=zookeeper",
             "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -29,31 +29,31 @@
         "measurementBatchSize" : 1,
         "params" : {
             "dubbo.protocol.name" : "tri",
-            "time" : "1711609691308"
+            "time" : "1711613565814"
         },
         "primaryMetric" : {
-            "score" : 87.39711528382867,
+            "score" : 102.48607116875,
             "scoreError" : "NaN",
             "scoreConfidence" : [
                 "NaN",
                 "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 87.39711528382867,
-                "50.0" : 87.39711528382867,
-                "90.0" : 87.39711528382867,
-                "95.0" : 87.39711528382867,
-                "99.0" : 87.39711528382867,
-                "99.9" : 87.39711528382867,
-                "99.99" : 87.39711528382867,
-                "99.999" : 87.39711528382867,
-                "99.9999" : 87.39711528382867,
-                "100.0" : 87.39711528382867
+                "0.0" : 102.48607116875,
+                "50.0" : 102.48607116875,
+                "90.0" : 102.48607116875,
+                "95.0" : 102.48607116875,
+                "99.0" : 102.48607116875,
+                "99.9" : 102.48607116875,
+                "99.99" : 102.48607116875,
+                "99.999" : 102.48607116875,
+                "99.9999" : 102.48607116875,
+                "100.0" : 102.48607116875
             },
             "scoreUnit" : "ms/op",
             "rawData" : [
                 [
-                    87.39711528382867
+                    102.48607116875
                 ]
             ]
         },
