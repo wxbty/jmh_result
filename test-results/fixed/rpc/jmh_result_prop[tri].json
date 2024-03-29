@@ -7,7 +7,7 @@
         "forks" : 1,
         "jvm" : "/usr/local/openjdk-8/jre/bin/java",
         "jvmArgs" : [
-            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711703165438-jacoco.exec",
+            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711703275575-jacoco.exec",
             "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
             "-Dzookeeper.address=zookeeper",
             "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -29,31 +29,31 @@
         "measurementBatchSize" : 1,
         "params" : {
             "dubbo.protocol.name" : "tri",
-            "time" : "1711703219516"
+            "time" : "1711703328555"
         },
         "primaryMetric" : {
-            "score" : 89.90961044854797,
+            "score" : 88.85558773317551,
             "scoreError" : "NaN",
             "scoreConfidence" : [
                 "NaN",
                 "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 89.90961044854797,
-                "50.0" : 89.90961044854797,
-                "90.0" : 89.90961044854797,
-                "95.0" : 89.90961044854797,
-                "99.0" : 89.90961044854797,
-                "99.9" : 89.90961044854797,
-                "99.99" : 89.90961044854797,
-                "99.999" : 89.90961044854797,
-                "99.9999" : 89.90961044854797,
-                "100.0" : 89.90961044854797
+                "0.0" : 88.85558773317551,
+                "50.0" : 88.85558773317551,
+                "90.0" : 88.85558773317551,
+                "95.0" : 88.85558773317551,
+                "99.0" : 88.85558773317551,
+                "99.9" : 88.85558773317551,
+                "99.99" : 88.85558773317551,
+                "99.999" : 88.85558773317551,
+                "99.9999" : 88.85558773317551,
+                "100.0" : 88.85558773317551
             },
             "scoreUnit" : "ms/op",
             "rawData" : [
                 [
-                    89.90961044854797
+                    88.85558773317551
                 ]
             ]
         },
