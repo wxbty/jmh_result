@@ -7,7 +7,7 @@
         "forks" : 1,
         "jvm" : "/usr/local/openjdk-8/jre/bin/java",
         "jvmArgs" : [
-            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711746992202-jacoco.exec",
+            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711747196880-jacoco.exec",
             "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
             "-Dzookeeper.address=zookeeper",
             "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -29,31 +29,31 @@
         "measurementBatchSize" : 1,
         "params" : {
             "dubbo.protocol.serialization" : "kryo",
-            "time" : "1711747043815"
+            "time" : "1711747252605"
         },
         "primaryMetric" : {
-            "score" : 51.850966881116705,
+            "score" : 54.7438288220204,
             "scoreError" : "NaN",
             "scoreConfidence" : [
                 "NaN",
                 "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 51.850966881116705,
-                "50.0" : 51.850966881116705,
-                "90.0" : 51.850966881116705,
-                "95.0" : 51.850966881116705,
-                "99.0" : 51.850966881116705,
-                "99.9" : 51.850966881116705,
-                "99.99" : 51.850966881116705,
-                "99.999" : 51.850966881116705,
-                "99.9999" : 51.850966881116705,
-                "100.0" : 51.850966881116705
+                "0.0" : 54.7438288220204,
+                "50.0" : 54.7438288220204,
+                "90.0" : 54.7438288220204,
+                "95.0" : 54.7438288220204,
+                "99.0" : 54.7438288220204,
+                "99.9" : 54.7438288220204,
+                "99.99" : 54.7438288220204,
+                "99.999" : 54.7438288220204,
+                "99.9999" : 54.7438288220204,
+                "100.0" : 54.7438288220204
             },
             "scoreUnit" : "ms/op",
             "rawData" : [
                 [
-                    51.850966881116705
+                    54.7438288220204
                 ]
             ]
         },
