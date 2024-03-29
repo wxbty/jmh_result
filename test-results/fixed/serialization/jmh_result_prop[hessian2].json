@@ -7,7 +7,7 @@
         "forks" : 1,
         "jvm" : "/usr/local/openjdk-8/jre/bin/java",
         "jvmArgs" : [
-            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711681989840-jacoco.exec",
+            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711685779455-jacoco.exec",
             "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
             "-Dzookeeper.address=zookeeper",
             "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -29,31 +29,31 @@
         "measurementBatchSize" : 1,
         "params" : {
             "dubbo.protocol.serialization" : "hessian2",
-            "time" : "1711682062184"
+            "time" : "1711685853603"
         },
         "primaryMetric" : {
-            "score" : 49.71369424381267,
+            "score" : 48.02320123976157,
             "scoreError" : "NaN",
             "scoreConfidence" : [
                 "NaN",
                 "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 49.71369424381267,
-                "50.0" : 49.71369424381267,
-                "90.0" : 49.71369424381267,
-                "95.0" : 49.71369424381267,
-                "99.0" : 49.71369424381267,
-                "99.9" : 49.71369424381267,
-                "99.99" : 49.71369424381267,
-                "99.999" : 49.71369424381267,
-                "99.9999" : 49.71369424381267,
-                "100.0" : 49.71369424381267
+                "0.0" : 48.02320123976157,
+                "50.0" : 48.02320123976157,
+                "90.0" : 48.02320123976157,
+                "95.0" : 48.02320123976157,
+                "99.0" : 48.02320123976157,
+                "99.9" : 48.02320123976157,
+                "99.99" : 48.02320123976157,
+                "99.999" : 48.02320123976157,
+                "99.9999" : 48.02320123976157,
+                "100.0" : 48.02320123976157
             },
             "scoreUnit" : "ms/op",
             "rawData" : [
                 [
-                    49.71369424381267
+                    48.02320123976157
                 ]
             ]
         },
