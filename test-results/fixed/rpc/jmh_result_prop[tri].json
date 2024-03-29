@@ -7,7 +7,7 @@
         "forks" : 1,
         "jvm" : "/usr/local/openjdk-8/jre/bin/java",
         "jvmArgs" : [
-            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711667417982-jacoco.exec",
+            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711672315824-jacoco.exec",
             "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
             "-Dzookeeper.address=zookeeper",
             "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -29,31 +29,31 @@
         "measurementBatchSize" : 1,
         "params" : {
             "dubbo.protocol.name" : "tri",
-            "time" : "1711667470341"
+            "time" : "1711672369950"
         },
         "primaryMetric" : {
-            "score" : 90.9166698,
+            "score" : 81.89888752789919,
             "scoreError" : "NaN",
             "scoreConfidence" : [
                 "NaN",
                 "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 90.9166698,
-                "50.0" : 90.9166698,
-                "90.0" : 90.9166698,
-                "95.0" : 90.9166698,
-                "99.0" : 90.9166698,
-                "99.9" : 90.9166698,
-                "99.99" : 90.9166698,
-                "99.999" : 90.9166698,
-                "99.9999" : 90.9166698,
-                "100.0" : 90.9166698
+                "0.0" : 81.89888752789919,
+                "50.0" : 81.89888752789919,
+                "90.0" : 81.89888752789919,
+                "95.0" : 81.89888752789919,
+                "99.0" : 81.89888752789919,
+                "99.9" : 81.89888752789919,
+                "99.99" : 81.89888752789919,
+                "99.999" : 81.89888752789919,
+                "99.9999" : 81.89888752789919,
+                "100.0" : 81.89888752789919
             },
             "scoreUnit" : "ms/op",
             "rawData" : [
                 [
-                    90.9166698
+                    81.89888752789919
                 ]
             ]
         },
