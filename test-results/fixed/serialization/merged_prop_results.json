@@ -1,13 +1,13 @@
 [
   {
-    "jmhVersion": "1.21",
+    "jmhVersion": "1.37",
     "benchmark": "org.apache.dubbo.benchmark.demo.test.ConsumerIT.MyBenchmark.getUser",
     "mode": "avgt",
     "threads": 16,
     "forks": 1,
     "jvm": "/usr/local/openjdk-8/jre/bin/java",
     "jvmArgs": [
-      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711676834103-jacoco.exec",
+      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711679434378-jacoco.exec",
       "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
       "-Dzookeeper.address=zookeeper",
       "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -29,45 +29,45 @@
     "measurementBatchSize": 1,
     "params": {
       "dubbo.protocol.serialization": "fastjson2",
-      "time": "1711676886768"
+      "time": "1711679487263"
     },
     "primaryMetric": {
-      "score": 51.6034408214364,
+      "score": 47.45662933196914,
       "scoreError": "NaN",
       "scoreConfidence": [
         "NaN",
         "NaN"
       ],
       "scorePercentiles": {
-        "0.0": 51.6034408214364,
-        "50.0": 51.6034408214364,
-        "90.0": 51.6034408214364,
-        "95.0": 51.6034408214364,
-        "99.0": 51.6034408214364,
-        "99.9": 51.6034408214364,
-        "99.99": 51.6034408214364,
-        "99.999": 51.6034408214364,
-        "99.9999": 51.6034408214364,
-        "100.0": 51.6034408214364
+        "0.0": 47.45662933196914,
+        "50.0": 47.45662933196914,
+        "90.0": 47.45662933196914,
+        "95.0": 47.45662933196914,
+        "99.0": 47.45662933196914,
+        "99.9": 47.45662933196914,
+        "99.99": 47.45662933196914,
+        "99.999": 47.45662933196914,
+        "99.9999": 47.45662933196914,
+        "100.0": 47.45662933196914
       },
       "scoreUnit": "ms/op",
       "rawData": [
         [
-          51.6034408214364
+          47.45662933196914
         ]
       ]
     },
     "secondaryMetrics": {}
   },
   {
-    "jmhVersion": "1.21",
+    "jmhVersion": "1.37",
     "benchmark": "org.apache.dubbo.benchmark.demo.test.ConsumerIT.MyBenchmark.getUser",
     "mode": "avgt",
     "threads": 16,
     "forks": 1,
     "jvm": "/usr/local/openjdk-8/jre/bin/java",
     "jvmArgs": [
-      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711676682132-jacoco.exec",
+      "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711679277405-jacoco.exec",
       "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
       "-Dzookeeper.address=zookeeper",
       "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -89,31 +89,31 @@
     "measurementBatchSize": 1,
     "params": {
       "dubbo.protocol.serialization": "hessian2",
-      "time": "1711676756187"
+      "time": "1711679354245"
     },
     "primaryMetric": {
-      "score": 49.65236380730994,
+      "score": 50.72535145406486,
       "scoreError": "NaN",
       "scoreConfidence": [
         "NaN",
         "NaN"
       ],
       "scorePercentiles": {
-        "0.0": 49.65236380730994,
-        "50.0": 49.65236380730994,
-        "90.0": 49.65236380730994,
-        "95.0": 49.65236380730994,
-        "99.0": 49.65236380730994,
-        "99.9": 49.65236380730994,
-        "99.99": 49.65236380730994,
-        "99.999": 49.65236380730994,
-        "99.9999": 49.65236380730994,
-        "100.0": 49.65236380730994
+        "0.0": 50.72535145406486,
+        "50.0": 50.72535145406486,
+        "90.0": 50.72535145406486,
+        "95.0": 50.72535145406486,
+        "99.0": 50.72535145406486,
+        "99.9": 50.72535145406486,
+        "99.99": 50.72535145406486,
+        "99.999": 50.72535145406486,
+        "99.9999": 50.72535145406486,
+        "100.0": 50.72535145406486
       },
       "scoreUnit": "ms/op",
       "rawData": [
         [
-          49.65236380730994
+          50.72535145406486
         ]
       ]
     },
