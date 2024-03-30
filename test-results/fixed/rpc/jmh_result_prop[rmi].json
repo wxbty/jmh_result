@@ -7,7 +7,7 @@
         "forks" : 1,
         "jvm" : "/usr/local/openjdk-8/jre/bin/java",
         "jvmArgs" : [
-            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711782931993-jacoco.exec",
+            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711786740851-jacoco.exec",
             "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
             "-Dzookeeper.address=zookeeper",
             "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -29,31 +29,31 @@
         "measurementBatchSize" : 1,
         "params" : {
             "dubbo.protocol.name" : "rmi",
-            "time" : "1711782983546"
+            "time" : "1711786792571"
         },
         "primaryMetric" : {
-            "score" : 72.41767039178114,
+            "score" : 72.80587533447803,
             "scoreError" : "NaN",
             "scoreConfidence" : [
                 "NaN",
                 "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 72.41767039178114,
-                "50.0" : 72.41767039178114,
-                "90.0" : 72.41767039178114,
-                "95.0" : 72.41767039178114,
-                "99.0" : 72.41767039178114,
-                "99.9" : 72.41767039178114,
-                "99.99" : 72.41767039178114,
-                "99.999" : 72.41767039178114,
-                "99.9999" : 72.41767039178114,
-                "100.0" : 72.41767039178114
+                "0.0" : 72.80587533447803,
+                "50.0" : 72.80587533447803,
+                "90.0" : 72.80587533447803,
+                "95.0" : 72.80587533447803,
+                "99.0" : 72.80587533447803,
+                "99.9" : 72.80587533447803,
+                "99.99" : 72.80587533447803,
+                "99.999" : 72.80587533447803,
+                "99.9999" : 72.80587533447803,
+                "100.0" : 72.80587533447803
             },
             "scoreUnit" : "ms/op",
             "rawData" : [
                 [
-                    72.41767039178114
+                    72.80587533447803
                 ]
             ]
         },
