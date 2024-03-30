@@ -7,7 +7,7 @@
         "forks" : 1,
         "jvm" : "/usr/local/openjdk-8/jre/bin/java",
         "jvmArgs" : [
-            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711786870626-jacoco.exec",
+            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711790154824-jacoco.exec",
             "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
             "-Dzookeeper.address=zookeeper",
             "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -29,31 +29,31 @@
         "measurementBatchSize" : 1,
         "params" : {
             "dubbo.protocol.serialization" : "fastjson2",
-            "time" : "1711786922053"
+            "time" : "1711790207518"
         },
         "primaryMetric" : {
-            "score" : 52.617903839499796,
+            "score" : 42.563361940994724,
             "scoreError" : "NaN",
             "scoreConfidence" : [
                 "NaN",
                 "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 52.617903839499796,
-                "50.0" : 52.617903839499796,
-                "90.0" : 52.617903839499796,
-                "95.0" : 52.617903839499796,
-                "99.0" : 52.617903839499796,
-                "99.9" : 52.617903839499796,
-                "99.99" : 52.617903839499796,
-                "99.999" : 52.617903839499796,
-                "99.9999" : 52.617903839499796,
-                "100.0" : 52.617903839499796
+                "0.0" : 42.563361940994724,
+                "50.0" : 42.563361940994724,
+                "90.0" : 42.563361940994724,
+                "95.0" : 42.563361940994724,
+                "99.0" : 42.563361940994724,
+                "99.9" : 42.563361940994724,
+                "99.99" : 42.563361940994724,
+                "99.999" : 42.563361940994724,
+                "99.9999" : 42.563361940994724,
+                "100.0" : 42.563361940994724
             },
             "scoreUnit" : "ms/op",
             "rawData" : [
                 [
-                    52.617903839499796
+                    42.563361940994724
                 ]
             ]
         },
