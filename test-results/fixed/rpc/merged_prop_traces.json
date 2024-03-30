@@ -1,62 +1,13 @@
 [
   {
-    "traceId_": "33639ff8cfad4042b2220771109d101e.40.17117794455300065",
-    "traceSegmentId_": "33639ff8cfad4042b2220771109d101e.40.17117794455300064",
+    "traceId_": "812c11ae985c400c95c25f0a195535c2.27.17117830197120061",
+    "traceSegmentId_": "812c11ae985c400c95c25f0a195535c2.27.17117830197120060",
     "spans_": [
       {
         "spanId_": 0,
         "parentSpanId_": -1,
-        "startTime_": 1711779445530,
-        "endTime_": 1711779445546,
-        "refs_": [],
-        "operationName_": "org.apache.dubbo.benchmark.demo.DemoService.sayHello(String)",
-        "peer_": "172.18.0.6:0",
-        "spanType_": 1,
-        "spanLayer_": 2,
-        "componentId_": 3,
-        "isError_": false,
-        "tags_": [
-          {
-            "key_": "url",
-            "value_": "consumer://172.18.0.6:0/org.apache.dubbo.benchmark.demo.DemoService.sayHello(String)",
-            "memoizedIsInitialized": -1,
-            "unknownFields": {
-              "fields": {}
-            },
-            "memoizedSize": -1,
-            "memoizedHashCode": 0
-          }
-        ],
-        "logs_": [],
-        "skipAnalysis_": false,
-        "memoizedIsInitialized": -1,
-        "unknownFields": {
-          "fields": {}
-        },
-        "memoizedSize": -1,
-        "memoizedHashCode": 0
-      }
-    ],
-    "service_": "dubbo-samples-benchmark-consumer",
-    "serviceInstance_": "7f9bb940fea24272a87f2b28862c81eb@172.18.0.6",
-    "isSizeLimited_": false,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 0,
-    "dubbo.protocol.name": "dubbo"
-  },
-  {
-    "traceId_": "8b2d17807a5043baab7dbea4eeb6fd7a.34.17117797156980059",
-    "traceSegmentId_": "8b2d17807a5043baab7dbea4eeb6fd7a.34.17117797156980058",
-    "spans_": [
-      {
-        "spanId_": 0,
-        "parentSpanId_": -1,
-        "startTime_": 1711779715698,
-        "endTime_": 1711779715729,
+        "startTime_": 1711783019712,
+        "endTime_": 1711783019744,
         "refs_": [],
         "operationName_": "org.apache.dubbo.benchmark.demo.DemoService.sayHello(String)",
         "peer_": "172.20.0.6:0",
@@ -87,7 +38,7 @@
       }
     ],
     "service_": "dubbo-samples-benchmark-consumer",
-    "serviceInstance_": "231a2d6275284c0f99be2bed6925ce7c@172.20.0.6",
+    "serviceInstance_": "7514f08cfe814207a26dc1cdc49014fe@172.20.0.6",
     "isSizeLimited_": false,
     "memoizedIsInitialized": 1,
     "unknownFields": {
@@ -98,14 +49,14 @@
     "dubbo.protocol.name": "rmi"
   },
   {
-    "traceId_": "418f7449232a4bc4a8268c34328234b6.39.17117795802180035",
-    "traceSegmentId_": "418f7449232a4bc4a8268c34328234b6.39.17117795802180034",
+    "traceId_": "4e89740e61b34c86957ee3243632d568.34.17117828900450037",
+    "traceSegmentId_": "4e89740e61b34c86957ee3243632d568.34.17117828900450036",
     "spans_": [
       {
         "spanId_": 0,
         "parentSpanId_": -1,
-        "startTime_": 1711779580218,
-        "endTime_": 1711779580244,
+        "startTime_": 1711782890045,
+        "endTime_": 1711782890082,
         "refs_": [],
         "operationName_": "org.apache.dubbo.benchmark.demo.DemoService.sayHello(String)",
         "peer_": "172.19.0.6:0",
@@ -136,7 +87,7 @@
       }
     ],
     "service_": "dubbo-samples-benchmark-consumer",
-    "serviceInstance_": "5d8a7b9cd5654c119b5e00447e137d6b@172.19.0.6",
+    "serviceInstance_": "c71646ab36504347bbc7398f55aabcdf@172.19.0.6",
     "isSizeLimited_": false,
     "memoizedIsInitialized": 1,
     "unknownFields": {
@@ -145,5 +96,54 @@
     "memoizedSize": -1,
     "memoizedHashCode": 0,
     "dubbo.protocol.name": "tri"
+  },
+  {
+    "traceId_": "f2e4e46c2c7a446a863ec61849dac960.34.17117827588240075",
+    "traceSegmentId_": "f2e4e46c2c7a446a863ec61849dac960.34.17117827588240074",
+    "spans_": [
+      {
+        "spanId_": 0,
+        "parentSpanId_": -1,
+        "startTime_": 1711782758824,
+        "endTime_": 1711782758827,
+        "refs_": [],
+        "operationName_": "org.apache.dubbo.benchmark.demo.DemoService.sayHello(String)",
+        "peer_": "172.18.0.6:0",
+        "spanType_": 1,
+        "spanLayer_": 2,
+        "componentId_": 3,
+        "isError_": false,
+        "tags_": [
+          {
+            "key_": "url",
+            "value_": "consumer://172.18.0.6:0/org.apache.dubbo.benchmark.demo.DemoService.sayHello(String)",
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "logs_": [],
+        "skipAnalysis_": false,
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      }
+    ],
+    "service_": "dubbo-samples-benchmark-consumer",
+    "serviceInstance_": "5dbbcf9e1a9243d89bc232fca05c20c3@172.18.0.6",
+    "isSizeLimited_": false,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0,
+    "dubbo.protocol.name": "dubbo"
   }
 ]
