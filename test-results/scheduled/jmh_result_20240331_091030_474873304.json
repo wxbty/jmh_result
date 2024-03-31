@@ -1,0 +1,69 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.apache.dubbo.benchmark.demo.test.ConsumerIT.MyBenchmark.getUser",
+        "mode" : "avgt",
+        "threads" : 4,
+        "forks" : 1,
+        "jvm" : "/usr/local/openjdk-8/jre/bin/java",
+        "jvmArgs" : [
+            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711876104648-jacoco.exec",
+            "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
+            "-Dzookeeper.address=zookeeper",
+            "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
+            "-Dskywalking.collector.backend_service=skywalking:11800",
+            "-Ddubbo.version=3.2.12-SNAPSHOT",
+            "-Dspring.version=5.0",
+            "-Djava.version=8",
+            "-Ddubbo.protocol.serialization=hessian2",
+            "-Ddubbo.protocol.serialization=\"-Ddubbo.protocol.serialization=hessian2\""
+        ],
+        "jdkVersion" : "1.8.0_342",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "25.342-b07",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "dubbo.protocol.serialization" : "hessian2",
+            "time" : "1711876161586"
+        },
+        "primaryMetric" : {
+            "score" : 4.949642051406078,
+            "scoreError" : 1.7482428941960892,
+            "scoreConfidence" : [
+                3.2013991572099894,
+                6.697884945602167
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.470326921990326,
+                "50.0" : 4.758343071238731,
+                "90.0" : 5.585492031375616,
+                "95.0" : 5.585492031375616,
+                "99.0" : 5.585492031375616,
+                "99.9" : 5.585492031375616,
+                "99.99" : 5.585492031375616,
+                "99.999" : 5.585492031375616,
+                "99.9999" : 5.585492031375616,
+                "100.0" : 5.585492031375616
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    4.758343071238731,
+                    4.470326921990326,
+                    4.690199335420606,
+                    5.585492031375616,
+                    5.243848897005113
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
