@@ -2,12 +2,12 @@
     {
         "jmhVersion" : "1.37",
         "benchmark" : "org.apache.dubbo.benchmark.demo.test.ConsumerIT.MyBenchmark.getUser",
-        "mode" : "avgt",
+        "mode" : "ss",
         "threads" : 4,
-        "forks" : 1,
+        "forks" : 0,
         "jvm" : "/usr/local/openjdk-8/jre/bin/java",
         "jvmArgs" : [
-            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711897607840-jacoco.exec",
+            "-javaagent:/usr/local/dubbo/jacocoagent.jar=destfile=/usr/local/dubbo/target-jacoco/1-1711969751778-jacoco.exec",
             "-javaagent:/tmp/skywalking-agent/skywalking-agent.jar",
             "-Dzookeeper.address=zookeeper",
             "-Dskywalking.agent.service_name=dubbo-samples-benchmark-consumer",
@@ -16,48 +16,44 @@
             "-Dspring.version=5.0",
             "-Djava.version=8",
             "-Ddubbo.protocol.name=dubbo",
-            "-Ddubbo.protocol.name=\"-Ddubbo.protocol.name=dubbo\""
+            "-Dprop=-Ddubbo.version=3.2.12-SNAPSHOT-Dspring.version=5.0-Djava.version=8-Ddubbo.protocol.name=dubbo"
         ],
         "jdkVersion" : "1.8.0_342",
         "vmName" : "OpenJDK 64-Bit Server VM",
         "vmVersion" : "25.342-b07",
-        "warmupIterations" : 5,
+        "warmupIterations" : 1,
         "warmupTime" : "1 s",
         "warmupBatchSize" : 1,
-        "measurementIterations" : 5,
+        "measurementIterations" : 1,
         "measurementTime" : "1 s",
         "measurementBatchSize" : 1,
         "params" : {
-            "dubbo.protocol.name" : "dubbo",
-            "time" : "1711897664615"
+            "prop" : "{\"dubbo.protocol.name\":\"dubbo\",\"java.version\":\"8\",\"dubbo.version\":\"3.2.12-SNAPSHOT\",\"spring.version\":\"5.0\"}",
+            "time" : "1711969810476"
         },
         "primaryMetric" : {
-            "score" : 32.389896397086694,
-            "scoreError" : 1.2997488709766223,
+            "score" : 43.11228175,
+            "scoreError" : "NaN",
             "scoreConfidence" : [
-                31.090147526110073,
-                33.689645268063316
+                "NaN",
+                "NaN"
             ],
             "scorePercentiles" : {
-                "0.0" : 32.010136504284276,
-                "50.0" : 32.32328090188172,
-                "90.0" : 32.87779280268817,
-                "95.0" : 32.87779280268817,
-                "99.0" : 32.87779280268817,
-                "99.9" : 32.87779280268817,
-                "99.99" : 32.87779280268817,
-                "99.999" : 32.87779280268817,
-                "99.9999" : 32.87779280268817,
-                "100.0" : 32.87779280268817
+                "0.0" : 43.11228175,
+                "50.0" : 43.11228175,
+                "90.0" : 43.11228175,
+                "95.0" : 43.11228175,
+                "99.0" : 43.11228175,
+                "99.9" : 43.11228175,
+                "99.99" : 43.11228175,
+                "99.999" : 43.11228175,
+                "99.9999" : 43.11228175,
+                "100.0" : 43.11228175
             },
             "scoreUnit" : "ms/op",
             "rawData" : [
                 [
-                    32.87779280268817,
-                    32.32328090188172,
-                    32.553763449462366,
-                    32.18450832711694,
-                    32.010136504284276
+                    43.11228175
                 ]
             ]
         },
