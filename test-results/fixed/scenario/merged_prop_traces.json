@@ -1,0 +1,210 @@
+[
+  {
+    "traceId_": "2b92e625f3104ecaaf830ae5e25d2d49.29.17119537113700001",
+    "traceSegmentId_": "2b92e625f3104ecaaf830ae5e25d2d49.29.17119537113690000",
+    "spans_": [
+      {
+        "spanId_": 3,
+        "parentSpanId_": 2,
+        "startTime_": 1711953711432,
+        "endTime_": 1711953711634,
+        "refs_": [],
+        "operationName_": "org.apache.dubbo.rpc.protocol.tri.TripleInvoker.doInvoke(org.apache.dubbo.rpc.Invocation)",
+        "peer_": "",
+        "spanType_": 2,
+        "spanLayer_": 0,
+        "componentId_": 0,
+        "isError_": false,
+        "tags_": [],
+        "logs_": [],
+        "skipAnalysis_": false,
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      {
+        "spanId_": 2,
+        "parentSpanId_": 1,
+        "startTime_": 1711953711432,
+        "endTime_": 1711953711634,
+        "refs_": [],
+        "operationName_": "org.apache.dubbo.rpc.protocol.AbstractInvoker.invoke(org.apache.dubbo.rpc.Invocation)",
+        "peer_": "",
+        "spanType_": 2,
+        "spanLayer_": 0,
+        "componentId_": 0,
+        "isError_": false,
+        "tags_": [],
+        "logs_": [],
+        "skipAnalysis_": false,
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      {
+        "spanId_": 1,
+        "parentSpanId_": 0,
+        "startTime_": 1711953711372,
+        "endTime_": 1711953711642,
+        "refs_": [],
+        "operationName_": "org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(java.lang.Object,java.lang.reflect.Method,[Ljava.lang.Object;)",
+        "peer_": "",
+        "spanType_": 2,
+        "spanLayer_": 0,
+        "componentId_": 0,
+        "isError_": true,
+        "tags_": [],
+        "logs_": [
+          {
+            "time_": 1711953711642,
+            "data_": [
+              {
+                "key_": "event",
+                "value_": "error",
+                "memoizedIsInitialized": -1,
+                "unknownFields": {
+                  "fields": {}
+                },
+                "memoizedSize": -1,
+                "memoizedHashCode": 0
+              },
+              {
+                "key_": "error.kind",
+                "value_": "org.apache.dubbo.rpc.RpcException",
+                "memoizedIsInitialized": -1,
+                "unknownFields": {
+                  "fields": {}
+                },
+                "memoizedSize": -1,
+                "memoizedHashCode": 0
+              },
+              {
+                "key_": "message",
+                "value_": "java.util.concurrent.ExecutionException: org.apache.dubbo.rpc.StatusRpcException: INTERNAL : Serialize request failed",
+                "memoizedIsInitialized": -1,
+                "unknownFields": {
+                  "fields": {}
+                },
+                "memoizedSize": -1,
+                "memoizedHashCode": 0
+              },
+              {
+                "key_": "stack",
+                "value_": "org.apache.dubbo.rpc.RpcException: java.util.concurrent.ExecutionException: org.apache.dubbo.rpc.StatusRpcException: INTERNAL : Serialize request failed\nat org.apache.dubbo.rpc.AsyncRpcResult.getAppResponse(AsyncRpcResult.java:180)\nat org.apache.dubbo.rpc.AsyncRpcResult.recreate(AsyncRpcResult.java:245)\nat org.apache.dubbo.rpc.proxy.InvocationUtil.invoke(InvocationUtil.java:65)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.$sw$original$invoke$d0bik43(InvokerInvocationHandler.java:81)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.$sw$original$invoke$d0bik43$accessor$$sw$f85hgm0(InvokerInvocationHandler.java)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler$$sw$auxiliary$kb768m0.call(Unknown Source)\nat org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.InstMethodsInter.intercept(InstMethodsInter.java:86)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0.$sw$original$sayHello$bjueqp1(DemoServiceDubboProxy0.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0.$sw$original$sayHello$bjueqp1$accessor$$sw$2i5vb23(DemoServiceDubboProxy0.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0$$sw$auxiliary$62pdg00.call(Unknown Source)\nat org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.InstMethodsInter.intercept(InstMethodsInter.java:86)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0.sayHello(DemoServiceDubboProxy0.java)\nat org.apache.dubbo.benchmark.demo.test.ConsumerIT$MyBenchmark.getUser(ConsumerIT.java:214)\nat org.apache.dubbo.benchmark.demo.test.jmh_generated.ConsumerIT_MyBenchmark_getUser_jmhTest.getUser_AverageTime(ConsumerIT_MyBenchmark_getUser_jmhTest.java:149)\nat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\nat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\nat java.lang.reflect.Method.invoke(Method.java:498)\nat org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)\nat org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\nat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\nat java.lang.Thread.run(Thread.java:750)\njava.util.concurrent.ExecutionException: org.apache.dubbo.rpc.StatusRpcException: INTERNAL : Serialize request failed\nat java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)\nat java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1908)\nat org.apache.dubbo.rpc.AsyncRpcResult.getAppResponse(AsyncRpcResult.java:171)\nat org.apache.dubbo.rpc.AsyncRpcResult.recreate(AsyncRpcResult.java:245)\nat org.apache.dubbo.rpc.proxy.InvocationUtil.invoke(InvocationUtil.java:65)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.$sw$original$invoke$d0bik43(InvokerInvocationHandler.java:81)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.$sw$original$invoke$d0bik43$accessor$$sw$f85hgm0(InvokerInvocationHandler.java)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler$$sw$auxiliary$kb768m0.call(Unknown Source)\nat org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.InstMethodsInter.intercept(InstMethodsInter.java:86)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0.$sw$original$sayHello$bjueqp1(DemoServiceDubboProxy0.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0.$sw$original$sayHello$bjueqp1$accessor$$sw$2i5vb23(DemoServiceDubboProxy0.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0$$sw$auxiliary$62pdg00.call(Unknown Source)\n",
+                "memoizedIsInitialized": -1,
+                "unknownFields": {
+                  "fields": {}
+                },
+                "memoizedSize": -1,
+                "memoizedHashCode": 0
+              }
+            ],
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "skipAnalysis_": false,
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      {
+        "spanId_": 0,
+        "parentSpanId_": -1,
+        "startTime_": 1711953711372,
+        "endTime_": 1711953711642,
+        "refs_": [],
+        "operationName_": "org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0.sayHello(java.lang.String)",
+        "peer_": "",
+        "spanType_": 2,
+        "spanLayer_": 0,
+        "componentId_": 0,
+        "isError_": true,
+        "tags_": [],
+        "logs_": [
+          {
+            "time_": 1711953711642,
+            "data_": [
+              {
+                "key_": "event",
+                "value_": "error",
+                "memoizedIsInitialized": -1,
+                "unknownFields": {
+                  "fields": {}
+                },
+                "memoizedSize": -1,
+                "memoizedHashCode": 0
+              },
+              {
+                "key_": "error.kind",
+                "value_": "org.apache.dubbo.rpc.RpcException",
+                "memoizedIsInitialized": -1,
+                "unknownFields": {
+                  "fields": {}
+                },
+                "memoizedSize": -1,
+                "memoizedHashCode": 0
+              },
+              {
+                "key_": "message",
+                "value_": "java.util.concurrent.ExecutionException: org.apache.dubbo.rpc.StatusRpcException: INTERNAL : Serialize request failed",
+                "memoizedIsInitialized": -1,
+                "unknownFields": {
+                  "fields": {}
+                },
+                "memoizedSize": -1,
+                "memoizedHashCode": 0
+              },
+              {
+                "key_": "stack",
+                "value_": "org.apache.dubbo.rpc.RpcException: java.util.concurrent.ExecutionException: org.apache.dubbo.rpc.StatusRpcException: INTERNAL : Serialize request failed\nat org.apache.dubbo.rpc.AsyncRpcResult.getAppResponse(AsyncRpcResult.java:180)\nat org.apache.dubbo.rpc.AsyncRpcResult.recreate(AsyncRpcResult.java:245)\nat org.apache.dubbo.rpc.proxy.InvocationUtil.invoke(InvocationUtil.java:65)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.$sw$original$invoke$d0bik43(InvokerInvocationHandler.java:81)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.$sw$original$invoke$d0bik43$accessor$$sw$f85hgm0(InvokerInvocationHandler.java)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler$$sw$auxiliary$kb768m0.call(Unknown Source)\nat org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.InstMethodsInter.intercept(InstMethodsInter.java:86)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0.$sw$original$sayHello$bjueqp1(DemoServiceDubboProxy0.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0.$sw$original$sayHello$bjueqp1$accessor$$sw$2i5vb23(DemoServiceDubboProxy0.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0$$sw$auxiliary$62pdg00.call(Unknown Source)\nat org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.InstMethodsInter.intercept(InstMethodsInter.java:86)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0.sayHello(DemoServiceDubboProxy0.java)\nat org.apache.dubbo.benchmark.demo.test.ConsumerIT$MyBenchmark.getUser(ConsumerIT.java:214)\nat org.apache.dubbo.benchmark.demo.test.jmh_generated.ConsumerIT_MyBenchmark_getUser_jmhTest.getUser_AverageTime(ConsumerIT_MyBenchmark_getUser_jmhTest.java:149)\nat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\nat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\nat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\nat java.lang.reflect.Method.invoke(Method.java:498)\nat org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)\nat org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\nat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\nat java.lang.Thread.run(Thread.java:750)\njava.util.concurrent.ExecutionException: org.apache.dubbo.rpc.StatusRpcException: INTERNAL : Serialize request failed\nat java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)\nat java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1908)\nat org.apache.dubbo.rpc.AsyncRpcResult.getAppResponse(AsyncRpcResult.java:171)\nat org.apache.dubbo.rpc.AsyncRpcResult.recreate(AsyncRpcResult.java:245)\nat org.apache.dubbo.rpc.proxy.InvocationUtil.invoke(InvocationUtil.java:65)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.$sw$original$invoke$d0bik43(InvokerInvocationHandler.java:81)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.$sw$original$invoke$d0bik43$accessor$$sw$f85hgm0(InvokerInvocationHandler.java)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler$$sw$auxiliary$kb768m0.call(Unknown Source)\nat org.apache.skywalking.apm.agent.core.plugin.interceptor.enhance.InstMethodsInter.intercept(InstMethodsInter.java:86)\nat org.apache.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0.$sw$original$sayHello$bjueqp1(DemoServiceDubboProxy0.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0.$sw$original$sayHello$bjueqp1$accessor$$sw$2i5vb23(DemoServiceDubboProxy0.java)\nat org.apache.dubbo.benchmark.demo.DemoServiceDubboProxy0$$sw$auxiliary$62pdg00.call(Unknown Source)\n",
+                "memoizedIsInitialized": -1,
+                "unknownFields": {
+                  "fields": {}
+                },
+                "memoizedSize": -1,
+                "memoizedHashCode": 0
+              }
+            ],
+            "memoizedIsInitialized": -1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "skipAnalysis_": false,
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      }
+    ],
+    "service_": "dubbo-samples-benchmark-consumer",
+    "serviceInstance_": "1d4deb9780b94fbe94e5b186ed0655c3@172.18.0.6",
+    "isSizeLimited_": false,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0,
+    "prop": "dubbo.protocol.name=tri"
+  }
+]
